@@ -1,0 +1,8 @@
+📊 SALES ANALYSIS REPORT
+------------------------------
+Total Revenue      : ₹XX,XX,XXX.00
+Average Sale       : ₹XX,XXX.00
+Highest Sale       : ₹3,18,680.00
+Lowest Sale        : ₹30,895.00
+Best Product       : Laptop
+Top Performing Region : North
