@@ -1,7 +1,0 @@
-Input: Marks = 95 → Grade A
-Input: Marks = 82 → Grade B
-Input: Marks = 71 → Grade C
-Input: Marks = 65 → Grade D
-Input: Marks = 45 → Grade F
-Input: Marks = -5 → Invalid
-Input: Marks = 120 → Invalid
