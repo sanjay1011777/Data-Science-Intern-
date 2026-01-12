@@ -38,7 +38,6 @@ high_value_orders = merged_df[
 
 merged_df['customer_name'] = merged_df['customer_name'].str.title()
 
-🔹 Cell 7: Pivot Table
 pivot_table = pd.pivot_table(
     merged_df,
     values='revenue',
