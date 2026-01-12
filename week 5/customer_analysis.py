@@ -81,7 +81,22 @@ pivot_table = pd.pivot_table(
     aggfunc="sum",
     fill_value=0
 )
-
+# ------------------------------ 
+# TOP CUSTOMERS BY TOTAL SALES 
+# ------------------------------ 
+ 
+top_n = 10 # change this if you want more 
+ 
+top_customers = ( 
+    merged_df 
+    .groupby("CustomerID")["Total_Sales"] 
+    .sum() 
+    .sort_values(ascending=False) 
+    .head(top_n) 
+) 
+ 
+print(f"\nTop {top_n} Customers by Total Sales:\n") 
+print(top_customers)
 # ==============================
 # 9. VISUALIZATIONS
 # ==============================
